@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.helloworld.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id= "@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/default_button"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/custom_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom_position"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/custom_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom_picture"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/custom"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id= "@+id/otherthread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/otherthread"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:id="@+id/TextView" />
+    </LinearLayout>
+</RelativeLayout>
